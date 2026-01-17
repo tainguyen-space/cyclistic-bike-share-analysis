@@ -1,0 +1,1 @@
+-- Data cleaning queries for Cyclistic project
