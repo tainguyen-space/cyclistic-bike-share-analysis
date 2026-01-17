@@ -9,9 +9,11 @@ The goal is to support data-driven marketing strategies to increase annual membe
 How do annual members and casual riders use Cyclistic bikes differently?
 
 ## Data Source
-- Public Divvy bike-share data (2024)
-- Provided by Motivate International Inc.
-- Data includes ride timestamps, locations, rideable types, and membership type
+- Data is officially from Divvy's bike-share system (https://divvytripdata.s3.amazonaws.com/index.html)
+- The data has been made publicly available by Motivate International Inc. under this license: https://divvybikes.com/data-license-agreement
+- The data is hosted on an Amazon S3 bucket under the directory "divvy-tripdata." The data is stored as ZIP files that, when extracted, contain CSV structured datasets
+- 12 latest available datasets are used; they contain monthly trip data of 2024 (202401-divvy-tripdata.csv ... 202412-divvy-tripdata.csv)
+- Data includes ride ID, rideable type, ride start/end date and time, start/end location name and ID, start/end location longitude and         latitude, and member type
 
 ## Tools Used
 - SQL (MySQL)
@@ -28,11 +30,11 @@ How do annual members and casual riders use Cyclistic bikes differently?
 ## Key Insights
 - Annual members take significantly more rides, but with shorter average duration
 - Casual riders show strong leisure-based patterns, especially on weekends and evenings
-- Members peak during commuting hours (6–8 AM, ~5 PM)
+- Members peak during commuting hours (6-8 AM, ~5 PM)
 - Both groups peak during summer months, with casual riders more seasonally sensitive
 
 ## Visualizations
-(Visualizations created in Tableau and exported as images)
+![Visuals](visuals)
 
 ## Recommendations
 - Introduce reward-based programs to incentivize frequent casual riders to convert
