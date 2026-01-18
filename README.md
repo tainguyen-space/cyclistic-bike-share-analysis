@@ -18,7 +18,6 @@ How do annual members and casual riders use Cyclistic bikes differently?
 ## Tools Used
 - SQL (MySQL)
 - Tableau
-- GitHub
 
 ## Data Cleaning & Preparation
 - Combined 12 monthly datasets (~6 million rows)
